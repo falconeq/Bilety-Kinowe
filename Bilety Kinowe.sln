@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bilety Kinowe", "Bilety Kinowe\Bilety Kinowe.csproj", "{CE28EB90-9539-4AA6-981A-EF63F5157BB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE28EB90-9539-4AA6-981A-EF63F5157BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE28EB90-9539-4AA6-981A-EF63F5157BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE28EB90-9539-4AA6-981A-EF63F5157BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE28EB90-9539-4AA6-981A-EF63F5157BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9706E3F-290C-423D-8F0E-1A8B8C621060}
+	EndGlobalSection
+EndGlobal

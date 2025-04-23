@@ -1,0 +1,33 @@
+﻿<!--
+Zadanie zaliczeniowe z c#
+Imię i nazwisko ucznia: Oliwier Wałdoch
+Data wykonania zadania: 03.03.2025
+Treść zadania: Bilety Kinowe
+Opis funkcjonalności aplikacji: W aplikacji, po wybraniu seansu, zostaje nam przedstawiona możliwość wyboru miejsc oraz zniżki jak i późniejszej opcji zakupu odpowiednie dobranych biletów.
+-->
+    
+    <Window x:Class="Bilety_Kinowe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bilety_Kinowe"
+        mc:Ignorable="d"
+        Title="Kino CNT Chojnice" Height="500" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="LightGray">
+            <Label Content="Wydarzenia" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="70">
+            <StackPanel HorizontalAlignment="Left" Margin="20">
+                <Image Source="img/front.jpg" Width="150" Height="224"/>
+                <Button x:Name="btnFront" Content="Kup Bilet" Width="150" Height="20" Margin="5" Click="front_okno"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Background="LightGray" Height="30">
+            <Label Content="Kino CNT Chojnice ®" FontSize="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
